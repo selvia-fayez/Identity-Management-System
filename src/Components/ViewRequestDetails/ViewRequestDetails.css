@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: black;
+    color: #fff;
+
+}
+.checkbox{
+    color: #5cb574;
+    font-weight: bold;
+}
+.btnn{
+    text-align: center;
+    margin-left: 35%;
+    width: 30%;
+    font-size: large;
+    margin-top: 15px;
+}

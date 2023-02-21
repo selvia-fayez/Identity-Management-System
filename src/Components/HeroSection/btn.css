@@ -1,0 +1,63 @@
+p{
+    color:#5cb574;
+    margin-top:16px;
+    font-size:16px;
+    font-weight: bold;
+    text-align: center;
+    max-width:1000px;
+
+}
+h2{
+    text-align: center;
+    margin-bottom: 40px;
+    color: white;
+}
+.loginoptions{
+    margin-top: 80px;
+}
+.btn{
+    border-radius: 50px;
+    padding: 14px 0;
+    width: 180px;
+    cursor: pointer;
+    transition: 0.5s;
+    
+}
+.btn:active{
+    transform: translateY(2px);
+}
+.companybtn{
+    color: white;
+    border: 2px solid linen;
+    font-size: 16px;
+    background-color: black;
+}
+.userbtn{
+    background-color: #5cb574;
+    font-size: 16px;
+    border: 2px solid rgb(169, 179, 174);
+    color: black;
+    margin-right: 30px;
+}
+
+.companybtn:hover{
+    color: black;
+    background-color: rgb(169, 179, 174);
+    border: 2px solid #5cb574;
+    
+}
+.userbtn:hover{
+    color: black;
+    background-color: rgb(169, 179, 174);
+    border: 2px solid #5cb574;
+}
+.img{
+    width:180px;
+    height:180px;
+    margin: 20px;
+    cursor:pointer;
+    border-radius: 10%;
+}
+.btnuser{
+  margin-left: 30px;
+} 

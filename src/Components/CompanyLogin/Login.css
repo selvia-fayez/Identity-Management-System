@@ -1,0 +1,133 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.full-page
+{
+    height: 100%;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+}
+
+a
+{	
+    color: white;
+    font-size: 12px;
+	margin-top:20%;
+}
+
+.form-box
+{
+	border-radius: 25px;
+    width:380px;
+	height:480px;
+	position:relative;
+	margin:2% auto;
+	background:rgba(189, 186, 186, 0.3);
+	box-shadow: 0 0 17px #333;
+	padding:10px;
+    overflow: hidden;
+}
+.form-box-register{
+	border-radius: 25px;
+    width:380px;
+	height:580px;
+	position:relative;
+	margin:2% auto;
+	background:rgba(189, 186, 186, 0.3);
+	box-shadow: 0 0 17px #333;
+	padding:10px;
+    overflow: hidden;
+}
+
+.header{
+	color: azure;
+	font-size: 28px;
+	margin:35px auto;
+	border-radius: 30px;
+}
+.title{
+	color: rgb(180, 173, 173);
+	font-size: 12px;
+	position: relative;
+}
+#btn
+{
+	top: 0;
+	left:0;
+	position: absolute;
+	width: 110px;
+	height: 100%;
+	background: #5cb574;
+	border-radius: 30px;
+	transition: .5s;
+}
+.input-group-login
+{
+	top: 150px;
+	position:absolute;
+	width:280px;
+	transition:.5s;
+}
+.input-field
+{
+	width: 100%;
+	padding:10px 0;
+	margin:5px 0;
+	border-left:0;
+	border-top:0;
+	color:white;
+	border-right:0;
+	border-bottom: 1px solid white;
+	outline:none;
+	background: transparent;
+}
+.submit-btn
+{
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: 35px auto;
+	background: #5cb574;
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+}
+span
+{
+	color:white;
+	font-size:12px;
+	bottom:68px;
+	position:absolute;
+}
+#login
+{
+	left:50px;
+}
+#login input
+{
+	color:white;
+	font-size:15;
+}
+.input-group-register
+{
+    top: 120px;
+	position:absolute;
+	width:280px;
+	transition:.5s;
+}
+#register
+{
+	left:450px;
+}
+#register input
+{
+	color:white;
+	font-size: 15;
+}
